@@ -1,0 +1,14 @@
+module.exports = {
+  jsxSingleQuote: false,
+  semi: true,
+  singleQuote: true,
+  tabWidth: 2,
+  overrides: [
+    {
+      files: "*.yml",
+      options: {
+        singleQuote: false,
+      },
+    },
+  ],
+};
