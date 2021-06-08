@@ -8,7 +8,6 @@ const App: FC = () => {
     await new Promise((r) => true);
   };
 
-  console.log(d);
   return (
     <div>
       Typescript {c} {test}
